@@ -17,14 +17,19 @@ public:
     //Get y Set
     void setId_pelicula(int);
     int getId_pelicula();
+
     void setTitulo(string);
     string getTitulo();
+
     void setGenero(string);
     string getGenero();
+
     void setDuracion(int);
     int getDuracion();
+
     void setClasificacion(string);
     string getClasificacion();
+
     //otros metodos
     void info_pelicula();
 };
@@ -47,8 +52,10 @@ public:
     //Get y Set
     void setId_sala(int);
     int getId_sala();
+
     void setTipo_sala(string);
     string getTipo_sala();
+
     void setAsiento(int);
     int getAsiento();
     //otros metodos
@@ -74,13 +81,16 @@ public:
     //Get y Set
     void setFecha(string);
     string getFecha();
+
     void setHora(string);
     string getHora();
+
     void setClasificacion(string);
     string getClasificacion();
-    Pelicula getPelicula() const;
+
+    Pelicula getPelicula();
     void setPelicula(Pelicula p);
-    Sala getSala() const;
+    Sala getSala();
     void setSala(Sala s);
     //otros metodos
     void reservacion();
@@ -101,18 +111,23 @@ private:
 public:
     //Metodo constructor
     Boleto();
-    Boleto(int, string, string, string, float, string, Funcion);
+    Boleto(int, string, string, string, float, string, Funcion); 
     //Get y Set
     void setNum_boleto(int);
     int getNum_boleto();
+
     void setHora(string);
     string getHora();
+
     void setPelicula(string);
     string getPelicula();
+
     void setAsiento(string);
     string getAsiento();
+
     void setPrecio(float);
     float getPrecio();
+
     void setTipo_cliente(string);
     string getTipo_cliente();
     //otros metodos
@@ -135,10 +150,13 @@ public:
     //Get y Set
     void setId(int);
     int getId();
+
     void setNombre(string);
     string getNombre();
+
     void setCorreo(string);
     string getCorreo();
+
     void setTelefono(int);
     int getTelefono();
     //otros metodos
