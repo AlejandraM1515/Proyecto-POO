@@ -14,13 +14,6 @@ COnsta de un menu con las opciones iniciales y corre sobre consola.
 # Consideraciones
 El programa solo corre en la consola y está hecho con c++ standard por lo que corre en todos los sistemas operativos
 
-compilar con: "g++ empleado.h empresa.h main.cpp"
-
-correr en linux: "/a.out"
-
-correr en windows: "a.exe"
-
-# ¿Cómo probar el proceto?
     g++ *.cpp -o main.exe
     ./main.exe 
 
