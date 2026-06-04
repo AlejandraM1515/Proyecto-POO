@@ -6,6 +6,11 @@ El siguiente proyecto está hecho con el fin de manejar la reservación de bolet
 El programa permite el registro de los clientes, la selección de la película y la función despoblé, al igual que permite visualizar de forma interactiva el mapa de asientos en la sala y por último permite la generación de los boletos.
 COnsta de un menu con las opciones iniciales y corre sobre consola.
 
+# Casos donde dejaría de funcionar
+- Si el usuario escribe un asiento inexistente
+- En caso de que se pidan más de 10 asientos considerados que este está marcado como el límite
+- Si el usuario ingresa 0 o un número negativo de asientos
+
 # Consideraciones
 El programa solo corre en la consola y está hecho con c++ standard por lo que corre en todos los sistemas operativos
 
@@ -14,3 +19,8 @@ compilar con: "g++ empleado.h empresa.h main.cpp"
 correr en linux: "/a.out"
 
 correr en windows: "a.exe"
+
+# ¿Cómo probar el proceto?
+    g++ *.cpp -o main.exe
+    ./main.exe 
+
