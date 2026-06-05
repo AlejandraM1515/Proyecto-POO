@@ -172,7 +172,7 @@ int main() {
     }
 
     cout << endl;
-    cout << "Informacion dle cliente:" << endl;
+    cout << "Informacion del cliente:" << endl;
 
     cliente->info_cliente();
     cout << "Total pagado: $" << precio_unitario * boletos_cantidad << endl;
